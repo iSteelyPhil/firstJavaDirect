@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>testDirectoy</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.example</groupId>
-    <artifactId>testDirectoy</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>Ch2</module>
-        <module>examples</module>
-        <module>Ch4-examples</module>
-        <module>LcCh4-Ex</module>
-        <module>CarrieCh4-BookEx</module>
-        <module>CarrieCh5-Examples</module>
-        <module>CarrieCh5-Examples</module>
-    </modules>
+    <artifactId>CarrieCh5-Examples</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
